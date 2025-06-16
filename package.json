@@ -1,0 +1,29 @@
+{
+  "name": "blogging-restful-api",
+  "version": "1.0.0",
+  "description": "\"# Blogging-RESTFUL-API\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch blog.js",
+    "prod": "node blog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlpri/Blogging-RESTFUL-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Carlpri/Blogging-RESTFUL-API/issues"
+  },
+  "homepage": "https://github.com/Carlpri/Blogging-RESTFUL-API#readme",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.9.0"
+  }
+}
